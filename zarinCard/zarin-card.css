@@ -1,0 +1,19 @@
+@import '/zarinLink/zarinLink.css';
+
+.header-img-top {
+    background-color: #fde7f8;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+.good-texts{
+    width: 95%;
+    margin: 0 auto;
+    direction: rtl;
+    padding: 5rem;
+}
+.texgod{
+    line-height: 2;
+}
+.good-texts-top{
+    margin-bottom: 1rem;
+}

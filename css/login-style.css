@@ -1,0 +1,30 @@
+@import url('login-page.css');
+
+.top-inputs{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0;
+}
+#first-login-form{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+.span-family{
+    width: 93%;
+    left: -20px;
+}
+.name-label{
+    margin-left: 60px;
+}
+#phone-number{
+    width: 160%;
+    margin-right: 20px;
+}
+#first-login-form input{
+    direction: rtl;
+}
+.login-header{
+    width: 50%;
+}

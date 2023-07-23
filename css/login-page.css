@@ -1,0 +1,199 @@
+@import './fontiran.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: IRANSans;
+    background-color: #eaecef;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-container {
+    width: 70%;
+}
+
+.slideshow {
+    width: 133%;
+    height: 550px;
+}
+
+.slideshow img {
+    border-bottom-left-radius: 10px;
+    opacity: .9;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 550px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.login-right-cont {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    direction: rtl;
+    width: 95%;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.login-header .ramzine {
+    padding: 8px 15px 8px 15px;
+    border-radius: 25px;
+    border: 1px solid rgba(58, 58, 58, 0.212);
+    color: black;
+}
+
+.login-texts {
+    margin: 20px;
+}
+
+.login-texts h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+input {
+    opacity: .5;
+    width: 173%;
+    margin: 0 auto;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid rgba(49, 49, 49, 0.644);
+    padding: 1rem;
+    text-align: end;
+}
+
+.go-login {
+    background-color: #ffe53b;
+    display: flex;
+    align-self: end;
+    margin: 1.3rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: 700;
+}
+
+.btn-slide {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 86%;
+    border-radius: 100%;
+    background-color: rgb(95, 95, 95);
+}
+
+.preveu {
+    left: 17.5%;
+}
+
+.next {
+    left: 19%;
+}
+
+label {
+    margin: 20px 19px;
+    position: relative;
+    display: inline-block;
+}
+
+.head-input {
+    padding: 2px;
+    pointer-events: none;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity: 0.5;
+    background-color: #fff;
+}
+
+input:focus+.head-input,
+input:not(:placeholder-shown)+.head-input {
+    opacity: 1;
+    transform: scale(0.75) translateY(-100%) translateX(-1px);
+    color: rgb(0, 0, 150);
+}
+
+input:focus {
+    border: 2px solid rgb(0, 0, 150);
+}
+
+.alert-message {
+    font-size: 12px;
+    margin-right: 25px;
+    color: red;
+    display: none;
+}
+
+.back {
+    background-color: red;
+}
+
+
+@media (max-width: 1200px) {
+
+    .slideshow,
+    .slideshow img,
+    .btn-slide {
+        display: none;
+    }
+
+    body {
+        display: contents;
+        background-color: rgba(128, 128, 128, 0.767);
+    }
+
+    .login-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    input {
+        width: 120%;
+    }
+
+    .login-texts h1 {
+        margin-bottom: 6px;
+        font-size: 28px;
+    }
+
+    .login-texts p {
+        text-align: justify;
+        width: 95%;
+    }
+
+    .login-right-cont {
+        margin-top: 55px;
+        width: 100%;
+    }
+}

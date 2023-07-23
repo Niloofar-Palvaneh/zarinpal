@@ -1,0 +1,73 @@
+@import '/zarinpal-ingormation/zarinpal-dargah-information.css';
+
+.attributs-zarinpal {
+    display: flex;
+    flex-direction: column;
+}
+
+.buxs-buttom {
+    border-top: 1px solid #38383824;
+}
+
+.attr-boxs {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.attr-texts {
+    margin-bottom: 40px;
+}
+
+.three-box {
+    width: 68.2%;
+    display: flex;
+    align-self: self-start;
+}
+
+.box-link {
+    border-left: 1px solid #38383824;
+}
+
+.buxs-buttom {
+    border-bottom: 1px solid #38383824;
+}
+
+.box-style {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    width: 57%;
+}
+.member{
+    width: 90%;
+    background-color: #f1f5fe;
+    text-align: center;
+    font-size: 24px;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-top: 75px;
+}
+.member span{
+    padding: 5px;
+    font-weight: 800;
+    color: rgb(0, 0, 100);
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .box {
+        width: 100%
+    }
+    .buxs-buttom , .box-link , .buxs-buttom{
+        border: none;
+    }
+    .three-box {
+        width: 100%;
+    }
+}

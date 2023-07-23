@@ -1,0 +1,129 @@
+@import '/css/style.css';
+
+.header-img-top {
+    background-color: #f1f5fe;
+    background-image: none;
+}
+
+.header-top-texts-right {
+    color: black;
+}
+
+.header-top-texts p {
+    color: rgb(85, 85, 85);
+}
+
+.h2s h2 {
+    direction: rtl;
+    text-align: justify;
+}
+
+.h2s :nth-child(odd) {
+    font-size: 24px;
+    font-family: serif;
+}
+
+.liner-background {
+    background-image: none;
+}
+
+.arrow-btn-hide {
+    top: -40px;
+}
+
+.boxs-top {
+    border: none;
+}
+
+.attributs-zarinpal {
+    width: 100%;
+    margin-top: 40px;
+}
+.attr-boxs{
+    width: 90%;
+    margin-right: 20px;
+}
+.attr-texts{
+    width: 91%;
+}
+.img-tarefe img{
+    width: 150%;
+}
+.tarefe-dargah{
+    background-color: #fbf6f1;
+    width: 83%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 75px;
+}
+.tarefe-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    direction: rtl;
+    line-height: 3;
+    width: 57%;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.tarefe-texts h5{
+    font-size: 25px;
+}
+.more-informations{
+    margin-bottom: 25px;
+}
+.box-style{
+    width: 95%;
+}
+.box{
+    padding: 2rem;
+}
+.hos-can{
+    margin-top: 90px;
+}
+
+@media (max-width: 1200px) {
+    .header-img-top {
+        width: 100%;
+        padding-bottom: 5rem;
+    }
+    .h2s{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-top-texts p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 23px;
+    }
+    .attr-texts h1{
+        font-size: 21px
+    }
+    .attributs-zarinpal{
+        margin-top: 0;
+    }
+    .img-tarefe{
+        display: none;
+    }
+    .tarefe-texts{
+        width: 100%;
+    }
+    .tarefe-dargah{
+        width: 95%;
+    }
+    .hos-can{
+        font-size: 22px;
+    }
+    .attr-boxs-new h3{
+        font-size: 17px;
+    }
+    .title{
+        margin-bottom: 0;
+    }
+}
